@@ -12,7 +12,7 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
+          1: "#fe914d",
           2: "#FFC876",
           3: "#FF776F",
           4: "#7ADB78",
@@ -42,6 +42,8 @@ export default {
         sans: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
+        open: "var(--font-open)",
+        mon: "var(--font-mon)",
       },
       letterSpacing: {
         tagline: ".15em",
@@ -73,7 +75,8 @@ export default {
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+          // "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+          "conic-gradient(from 0deg at 17% -2%, #FF5A00FF 1%, #FF000000 99%)",
         "benefit-card-1": "url(assets/benefits/card-1.svg)",
         "benefit-card-2": "url(assets/benefits/card-2.svg)",
         "benefit-card-3": "url(assets/benefits/card-3.svg)",
@@ -92,7 +95,7 @@ export default {
             {},
         },
         ".h1": {
-          "@apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
+          "@apply font-open font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
             {},
         },
         ".h2": {
@@ -112,7 +115,7 @@ export default {
           "@apply font-semibold text-lg leading-8": {},
         },
         ".body-1": {
-          "@apply text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8":
+          "@apply font-mon text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8":
             {},
         },
         ".body-2": {
