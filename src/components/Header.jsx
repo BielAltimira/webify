@@ -43,7 +43,7 @@ const Header = () => {
                 </div>
                 <HamburgerMenu/>
             </nav>
-            <Button white className="hidden lg:flex" href="#login">
+            <Button className="hidden lg:flex" href="#login">
                 Contracta'ns
             </Button>
             <Button className="ml-auto lg:hidden" px="px-3" onClick={toggleNavigation}>

@@ -128,21 +128,23 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Tenim a disposició totes les tecnologies i eines del mercat necessàries per a un producte final impecable.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Personalització",
+    text: "Programem tot des de zero per modificar cada detall del teu projecte al teu gust.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Preus competitius",
+    text: "Creem i dissenyem webs accessibles per a tots els pressupostos, enfoncant-nos en digitalitzar negocis petits i mitjans.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Destaca't dels altres",
+    text: "Et diferenciem de la resta i t'asegurem impulsar el teu marketing"
   },
 ];
 
