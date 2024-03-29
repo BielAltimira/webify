@@ -76,7 +76,8 @@ export default {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
           // "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
-          "conic-gradient(from 0deg at 17% -2%, #FF5A00FF 1%, #FF000000 99%)",
+          "linear-gradient(to right, rgba(253, 137, 195, 1) 0%, 14.685067232837934%, rgba(149, 90, 250, 1) 29.370134465675868%, 50.74309978768578%, rgba(181, 250, 140, 1) 72.11606510969568%, 86.05803255484784%, rgba(250, 204, 119, 1) 100%)",
+
         "benefit-card-1": "url(assets/benefits/card-1.svg)",
         "benefit-card-2": "url(assets/benefits/card-2.svg)",
         "benefit-card-3": "url(assets/benefits/card-3.svg)",
