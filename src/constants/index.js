@@ -36,6 +36,10 @@ import {
   yourlogo,
 } from "../assets";
 
+import mail from "../assets/mail.svg";
+import telf from "../assets/telf.svg";
+import pen from "../assets/pen.svg";
+
 export const navigation = [
   {
     id: "0",
@@ -79,43 +83,6 @@ export const brainwaveServicesIcons = [
   chromecast,
   sliders04,
 ];
-
-export const roadmap = [
-  {
-    id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
-    colorful: true,
-  },
-  {
-    id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
-  },
-  {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
-  },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
-  },
-];
-
 export const collabText =
   "Tenim a disposició totes les tecnologies i eines del mercat necessàries per a un producte final impecable.";
 
@@ -134,6 +101,27 @@ export const collabContent = [
     id: "2",
     title: "Destaca't dels altres",
     text: "Et diferenciem de la resta i t'asegurem impulsar el teu marketing"
+  },
+];
+
+export const contactContent= [
+  {
+    id: "0",
+    title: "Per email",
+    text: "email@webify.com",
+    icon: mail,
+  },
+  {
+    id: "1",
+    title: "Per telèfon",
+    text: "656 78 75 79",
+    icon: telf,
+  },
+  {
+    id: "2",
+    title: "Pel formulari",
+    text: "Emplena el formulari de contacte i ens faràs arribar un correu.",
+    icon: pen,
   },
 ];
 

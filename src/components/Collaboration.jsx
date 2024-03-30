@@ -7,7 +7,7 @@ import webify from "../assets/webify-symbol-white.svg";
 
 const Collaboration = () => {
   return (
-    <Section crosses>
+    <Section crosses id="about">
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 font-open mb-4 md:mb-8">

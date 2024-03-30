@@ -8,7 +8,7 @@ import logo from "../assets/webify-symbol-white.svg"
 
 const Pricing = () => {
   return (
-    <Section className="overflow-hidden" id="serveis">
+    <Section crosses className="overflow-hidden" id="serveis">
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
