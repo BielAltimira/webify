@@ -53,10 +53,12 @@ const Hero = () => {
             <div className="relative bg-black rounded-[1rem]">
 
               <div className="aspect-[33/40] rounded-[1rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-                    <Spline className="hidden md:block" scene="https://prod.spline.design/lyLnlE3StI-TUPwE/scene.splinecode" />
-                    <Spline className="md:hidden block" scene="https://prod.spline.design/LcrrZ-LcnSEWPTzR/scene.splinecode" />
+
+                    <Spline className="hidden md:block" scene="https://draft.spline.design/XaZU-9o0QjqdWD0c/scene.splinecode" />
+                    <Spline className="md:hidden block" scene="https://draft.spline.design/ssVqsCZaBWMYrEzr/scene.splinecode" />
                 {/* <img
                   src={background2}
+
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1024}
                   height={490}
