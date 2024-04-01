@@ -64,7 +64,7 @@ const Hero = () => {
                   height={490}
                   alt="hero"
                 /> */}
-                <ScrollParallax isAbsolutelyPositioned>
+                <ScrollParallax enableOnTouchDevice={false} zIndex={99} isAbsolutelyPositioned>
                    <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-6 md:w-[31rem] md:-translate-x-1/2"/>
                 </ScrollParallax>
                 <ScrollParallax isAbsolutelyPositioned>
