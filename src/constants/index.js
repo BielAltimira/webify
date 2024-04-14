@@ -114,7 +114,7 @@ export const contactContent= [
   {
     id: "1",
     title: "Per telèfon",
-    text: "656 78 75 79",
+    text: "611 409 745",
     icon: telf,
   },
   {
