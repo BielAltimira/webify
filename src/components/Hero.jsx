@@ -42,9 +42,9 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Impulsa la presència en línia del teu negoci. Creem webs professionals i atractives per a empreses.
+            Impulsa la presència en línia del teu negoci. Desenvolupem webs professionals i atractives per a empreses.
           </p>
-          <Button className="" href="#pricing" white>
+          <Button className="" href="#contacte" white>
             Començar
           </Button>
         </div>

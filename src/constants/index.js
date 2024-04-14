@@ -95,12 +95,12 @@ export const collabContent = [
   {
     id: "1",
     title: "Preus competitius",
-    text: "Creem i dissenyem webs accessibles per a tots els pressupostos, enfoncant-nos en digitalitzar negocis petits i mitjans.",
+    text: "Creem i dissenyem webs accessibles per a tots els pressupostos, enfocant-nos en digitalitzar negocis petits i mitjans.",
   },
   {
     id: "2",
     title: "Destaca't dels altres",
-    text: "Et diferenciem de la resta i t'asegurem impulsar el teu marketing"
+    text: "Et diferenciem de la resta i t'assegurem impulsar el teu màrqueting"
   },
 ];
 
@@ -188,35 +188,35 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "Simplement disseny web",
+    description: "Simplement disseny web.",
     price: "200",
     features: [
-      "T'assesorem i definim una imatge digital per al teu negoci",
-      "Desenvolupament del teu portal web",
-      "Modifiquem i ajustem tot al teu gust",
+      "T'assessorem i definim una imatge digital per al teu negoci",
+      "Desenvolupem del teu portal web",
+      "Modifiquem i ho ajustem tot al teu gust",
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Disenyem la deva web y ens encarreguem d'obtenir el domini i publicar-la.",
+    description: "Dissenyem la teva web i ens encarreguem d'obtenir el domini i publicar-la.",
     price: "250",
     features: [
-      "T'assesorem i definim una imatge digital per al teu negoci",
-      "Desenvolupament de la teva web",
+      "T'assessorem i definim una imatge digital per al teu negoci",
+      "Desenvolupem de la teva web",
       "T'ajudem a adquirir el teu domini",
       "Ens encarreguem de publicar la teva web",
-      "Modifiquem i ajustem tot al teu gust",
+      "Modifiquem i ho ajustem tot al teu gust",
     ],
   },
   {
     id: "2",
     title: "Empresa",
-    description: "Per a necesitats exclusives i funcionalitats avançades.",
+    description: "Per a necessitats exclusives i funcionalitats avançades.",
     price: null,
     features: [
-      "Solucions personalitzades per a necesitats especials",
-      "Implementem la funcionalitat que necesitis",
+      "Solucions personalitzades per a necessitats especials",
+      "Implementem la funcionalitat que necessitis",
       "Format web pel teu projecte",
     ],
   },
