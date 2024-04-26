@@ -36,7 +36,7 @@ function Form() {
         // Submit
         onSubmit: (values) => {
             handleFormState("sending")
-            emailjs.send("service_w5jr1wg","template_ttff8no",values,"cDX9CbkDbsoespmiK")
+            emailjs.send("service_jkhhzrd","template_4cowm47",values,"cDX9CbkDbsoespmiK")
             .then(res =>{
                 return res
             })
