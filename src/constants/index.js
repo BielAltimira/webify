@@ -108,7 +108,7 @@ export const contactContent= [
   {
     id: "0",
     title: "Per email",
-    text: "email@webify.com",
+    text: "info@webify.cat",
     icon: mail,
   },
   {
