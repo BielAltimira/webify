@@ -187,31 +187,30 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
+    title: "Bàsic",
     description: "Simplement disseny web.",
     price: "200",
     features: [
-      "T'assessorem i definim una imatge digital per al teu negoci",
-      "Desenvolupem del teu portal web",
+      "Desenvolupem el teu portal web",
       "Modifiquem i ho ajustem tot al teu gust",
+      "T'ajudem a adquirir el teu domini i publicar la web",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Dissenyem la teva web i ens encarreguem d'obtenir el domini i publicar-la.",
+    title: "Bàsic + SEO",
+    description: "Dissenyem la teva web i ens encarreguem d'optimitzar-la.",
     price: "250",
-    features: [
-      "T'assessorem i definim una imatge digital per al teu negoci",
-      "Desenvolupem de la teva web",
-      "T'ajudem a adquirir el teu domini",
-      "Ens encarreguem de publicar la teva web",
-      "Modifiquem i ho ajustem tot al teu gust",
+        features: [
+      "Tots els avantatges del paquet bàsic",
+      "Optimitzem la teva web pels motors de cerca",
+      "Et posicionem a Google",
     ],
+
   },
   {
     id: "2",
-    title: "Empresa",
+    title: "Prèmium",
     description: "Per a necessitats exclusives i funcionalitats avançades.",
     price: null,
     features: [

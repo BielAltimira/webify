@@ -28,7 +28,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef} >
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Millora el teu negoci ara <br/>
+            Impulsa el teu negoci ara <br/>
             i digitalitza't amb {` `}
             <span className="inline-block relative">
               Webify.{" "}
@@ -42,7 +42,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Impulsa la presència en línia del teu negoci. Desenvolupem webs professionals i atractives per a empreses.
+            Millora la presència en línia del teu negoci. Desenvolupem webs professionals i atractives per a empreses.
           </p>
           <Button className="" href="#contacte" white>
             Començar
