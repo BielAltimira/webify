@@ -11,6 +11,8 @@ import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 import StarGrid from "./design/StarGrid";
+import mockup from "../assets/mockup.png";
+import mockupMobile from "../assets/mockup_mobile.jpg";
 
 const Hero = () => {
     const parallaxRef = useRef();
@@ -42,7 +44,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Millora la presència en línia del teu negoci. Desenvolupem webs professionals i atractives per a empreses.
+            Millora la presència en línia del teu negoci. Webs professionals personalitzades i atractives per a empreses. 
           </p>
           <Button className="" href="#contacte" white>
             Començar
@@ -54,8 +56,10 @@ const Hero = () => {
 
               <div className="aspect-[33/40] rounded-[1rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
 
-                    <Spline className="hidden md:block" scene="https://draft.spline.design/XaZU-9o0QjqdWD0c/scene.splinecode" />
-                    <Spline className="md:hidden block" scene="https://draft.spline.design/ssVqsCZaBWMYrEzr/scene.splinecode" />
+                    {/* <Spline className="hidden md:block" scene="https://draft.spline.design/XaZU-9o0QjqdWD0c/scene.splinecode" />
+                    <Spline className="md:hidden block" scene="https://draft.spline.design/ssVqsCZaBWMYrEzr/scene.splinecode" /> */}
+                    <img src={mockup} className="hidden md:block scale-[1.7]"></img>
+                    <img src={mockupMobile} className="md:hidden block h-full object-cover scale-[1.7]"></img>
                 {/* <img
                   src={background2}
 

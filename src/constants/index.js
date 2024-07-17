@@ -187,8 +187,8 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Bàsic",
-    description: "Simplement disseny web.",
+    title: "Impuls Bàsic",
+    description: "Disseny i construcció d’una pàgina web.",
     price: "200",
     features: [
       "Desenvolupem el teu portal web",
@@ -198,7 +198,7 @@ export const pricing = [
   },
   {
     id: "1",
-    title: "Bàsic + SEO",
+    title: "Impuls SEO",
     description: "Dissenyem la teva web i ens encarreguem d'optimitzar-la.",
     price: "250",
         features: [
@@ -210,13 +210,13 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "Prèmium",
+    title: "Impuls Prèmium",
     description: "Per a necessitats exclusives i funcionalitats avançades.",
     price: null,
     features: [
       "Solucions personalitzades per a necessitats especials",
-      "Implementem la funcionalitat que necessitis",
       "Format web pel teu projecte",
+      "Formularis de contacte, reserva de cites, ChatBots, etc.",
     ],
   },
 ];
