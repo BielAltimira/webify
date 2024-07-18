@@ -28,7 +28,7 @@ function Contact() {
                   <h6 className=" font-open body-2 ml-5">{item.title}</h6>
                 </div>
                 {item.text && (
-                  <p className=" font-mon body-1 mt-3 text-n-2">{item.text}</p>
+                  <p className=" select-none font-mon body-1 mt-3 text-n-2">{item.text} <span className='hidden'>464546546464</span></p>
                 )}
               </li>
             ))}
