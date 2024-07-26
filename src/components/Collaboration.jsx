@@ -7,7 +7,7 @@ import webify from "../assets/webify-symbol-white.svg";
 
 const Collaboration = () => {
   return (
-    <Section crosses id="about">
+    <Section crosses id="oferta">
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 font-open mb-4 md:mb-8">
@@ -77,19 +77,6 @@ const Collaboration = () => {
           </div>
         </div>
       </div>
-      {/* <div className="px-[20rem] py-12 flex flex-row gap-40">
-      <div>
-
-      <span className=" font-open text-9xl">"</span>
-      <p className="text-2xl text-left font-mon">Som una agència de disseny web ubicada al Bages, formada per un 
-        equip de programadors i dissenyadors professionals. La nostra àmplia 
-        experiència en el sector és el que ens permet oferir solucions 
-        personalitzades per a empreses de totes les mides i sectors, adaptant-nos 
-        a les necessitats específiques de cada una d’elles."
-      </p>
-      </div>
-      <h1 className="text-6xl font-open ">Sobre Nosaltres.</h1>
-      </div> */}
 
 
     </Section>

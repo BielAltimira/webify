@@ -53,11 +53,17 @@ export const navigation = [
   },
   {
     id: "2",
+    title: "Oferta",
+    url: "#oferta"
+
+  },
+  {
+    id: "3",
     title: "Serveis",
     url: "#serveis",
   },
   {
-    id: "3",
+    id: "4",
     title: "Contacta'ns",
     url: "#contacte",
     onlyMobile: true,
